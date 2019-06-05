@@ -60,5 +60,3 @@ Rails.application.config.assets.precompile += %w( apple-touch-icon-114-precompos
 Rails.application.config.assets.precompile += %w( apple-touch-icon-72-precomposed.png )
 Rails.application.config.assets.precompile += %w( apple-touch-icon-57-precomposed.png )
 Rails.application.config.assets.precompile += %w( favicon.png )
-Rails.application.config.assets.precompile += %w( *.svg *.eot *.woff
-*.ttf *.woff2)
