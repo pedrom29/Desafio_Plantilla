@@ -12,14 +12,13 @@
 //
 
 //= require jquery-1.11.1.min.js
-
+//= require bootstrap.min.js
 //= require jquery.backstretch.min.js
 //= require wow.min.js
 //= require retina-1.1.0.min.js
 //= require waypoints.min.js
 //= require jquery.magnific-popup.min.js
 //= require scripts.js
-
 
 //= require rails-ujs
 //= require activestorage

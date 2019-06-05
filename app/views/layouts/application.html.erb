@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>DesafioPlantilla</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trilli Bi - Bootstrap Landing Page</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
-            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
             <link rel="shortcut icon" href="<%= asset_path 'favicon.png' %>">
             <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<%= asset_path 'apple-touch-icon-144-precomposed.png' %>">
             <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<%= asset_path 'apple-touch-icon-114-precomposed.png' %>">
